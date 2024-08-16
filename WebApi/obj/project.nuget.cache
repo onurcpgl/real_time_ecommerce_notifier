@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "WhWFyO6O29yATDfOzrmHylK2kEDHkoym0gNocH3nTz7Udjb/oQCUp/8tzFAEhN5ND/lWtBqRV+fZA4nbRjcv8Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\onurs\\OneDrive\\Masaüstü\\real_time_ecommerce_notifier\\WebApi\\WebApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\onurs\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\onurs\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\onurs\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\onurs\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\onurs\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\onurs\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
