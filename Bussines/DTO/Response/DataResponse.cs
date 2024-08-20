@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DataAccess.Helpers.Enum;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,8 +9,10 @@ namespace Bussines.DTO.Response
 {
     public class DataResponse<T>
     {
-        public bool Success { get; set; }
-        public T Data { get; set; }
-        public string Message { get; set; }
+        public string Status { get; set; }
+        public ResponseCode StatusCode { get; set; }
+        public IEnumerable<T>? List { get; set; }
+        public T? Data { get; set; }
+        public string? Message { get; set; }
     }
 }

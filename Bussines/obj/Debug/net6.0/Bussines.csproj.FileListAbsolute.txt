@@ -10,3 +10,8 @@ C:\Users\onurs\OneDrive\Masaüstü\real_time_ecommerce_notifier\Bussines\obj\Deb
 C:\Users\onurs\OneDrive\Masaüstü\real_time_ecommerce_notifier\Bussines\obj\Debug\net6.0\refint\Bussines.dll
 C:\Users\onurs\OneDrive\Masaüstü\real_time_ecommerce_notifier\Bussines\obj\Debug\net6.0\Bussines.pdb
 C:\Users\onurs\OneDrive\Masaüstü\real_time_ecommerce_notifier\Bussines\obj\Debug\net6.0\ref\Bussines.dll
+C:\Users\onurs\OneDrive\Masaüstü\real_time_ecommerce_notifier\Bussines\bin\Debug\net6.0\DataAccess.dll
+C:\Users\onurs\OneDrive\Masaüstü\real_time_ecommerce_notifier\Bussines\bin\Debug\net6.0\Domain.dll
+C:\Users\onurs\OneDrive\Masaüstü\real_time_ecommerce_notifier\Bussines\bin\Debug\net6.0\DataAccess.pdb
+C:\Users\onurs\OneDrive\Masaüstü\real_time_ecommerce_notifier\Bussines\bin\Debug\net6.0\Domain.pdb
+C:\Users\onurs\OneDrive\Masaüstü\real_time_ecommerce_notifier\Bussines\obj\Debug\net6.0\Bussines.csproj.CopyComplete

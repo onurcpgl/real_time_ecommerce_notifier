@@ -8,7 +8,7 @@ namespace DataAccess.Helpers.Enum
 {
     public enum ResponseType
     {
-        Success,
-        Error
+        Success = 0,
+        Error  = 1,
     }
 }

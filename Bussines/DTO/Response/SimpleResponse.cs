@@ -9,7 +9,7 @@ namespace Bussines.DTO.Response
 {
     public class SimpleResponse
     {
-        public ResponseType Status { get; set; }
+        public string Status { get; set; }
         public ResponseCode StatusCode { get; set; }
         public string Message { get; set; }
     }

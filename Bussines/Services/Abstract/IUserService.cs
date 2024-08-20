@@ -10,8 +10,8 @@ namespace Bussines.Services.Abstract
 {
     public interface IUserService
     {
-        Task<SimpleResponse> Register(RegisterDto registerDto);
-        Task<SimpleResponse> Login(LoginDto loginDto);
+        Task<SimpleResponse> Register(RegisterDTO registerDto);
+        Task<SimpleResponse> Login(LoginDTO loginDto);
         Task<DataResponse<UserDTO>> UserInfo(int userId);
     }
 }

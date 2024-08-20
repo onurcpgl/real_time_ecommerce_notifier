@@ -13,8 +13,9 @@ namespace Bussines.DTO
         public MappingProfile()
         {
             CreateMap<User, UserDTO>().ReverseMap();
-            CreateMap<User, RegisterDto>().ReverseMap();
-            CreateMap<User, LoginDto>().ReverseMap();
+            CreateMap<User, RegisterDTO>().ReverseMap();
+            CreateMap<User, LoginDTO>().ReverseMap();
+            CreateMap<Product, ProductDTO>().ReverseMap();
         }
 
     }
