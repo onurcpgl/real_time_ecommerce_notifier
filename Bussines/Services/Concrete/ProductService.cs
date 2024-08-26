@@ -40,6 +40,7 @@ namespace Bussines.Services.Concrete
                     response.Status = ResponseType.Success.ToString();
                     response.StatusCode = ResponseCode.OK;
                     response.Message = "Ürün başarıyla eklendi.";
+
                     return response;
                 }
                 else
@@ -48,6 +49,7 @@ namespace Bussines.Services.Concrete
                     response.Status = responseString;
                     response.StatusCode = ResponseCode.BadGateway;
                     response.Message = "Ürün eklenirken bir sorun meydana geldi.";
+
                     return response;
                 }
             }
@@ -76,12 +78,14 @@ namespace Bussines.Services.Concrete
                     response.StatusCode = ResponseCode.OK;
                     var mapResult = _mapper.Map<List<ProductDTO>>(result);
                     response.List = mapResult;
+
                     return response;
                 }
                 else
                 {
                     response.Status = ResponseType.Error.ToString(); ;
-                    response.StatusCode = ResponseCode.BadGateway;           
+                    response.StatusCode = ResponseCode.BadGateway;  
+                    
                     return response;
                 }
             }
@@ -137,6 +141,7 @@ namespace Bussines.Services.Concrete
                     response.Status = responseString;
                     response.StatusCode = ResponseCode.OK;
                     response.Message = "Ürün güncellendi.";
+
                     return response;
                 }
                 else
@@ -145,6 +150,7 @@ namespace Bussines.Services.Concrete
                     response.Status = ResponseType.Error.ToString();
                     response.StatusCode = ResponseCode.BadRequest;
                     response.Message = "Ürün güncellenirken hata meydana geldi.";
+
                     return response;
                 }
 
@@ -173,6 +179,7 @@ namespace Bussines.Services.Concrete
                     response.StatusCode = ResponseCode.NotFound;
                     response.Status = ResponseType.Error.ToString();
                     response.Message = "Ürün bulunamadı.";
+
                     return response;
                 }
 
@@ -183,6 +190,7 @@ namespace Bussines.Services.Concrete
                     response.StatusCode = ResponseCode.BadRequest;
                     response.Status = ResponseType.Error.ToString();
                     response.Message = "Stok miktarı negatif olamaz.";
+
                     return response;
                 }
 
@@ -190,6 +198,7 @@ namespace Bussines.Services.Concrete
                 response.StatusCode = ResponseCode.OK;
                 response.Status = ResponseType.Success.ToString();
                 response.Message = "Ürün başarıyla güncellendi.";
+
                 return response;
                 
             }
